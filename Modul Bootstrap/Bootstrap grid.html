@@ -1,0 +1,46 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="D:\Coba bootstrap layout.css"/>
+<title>Layout grid media query bootstrap</title>
+
+<style>
+
+	.warna{
+		background-color : white;
+		height : 100vh;
+	}
+	
+	@media (max-width : 767px){
+		.warna{
+			background-color : bisque;
+		}
+	}
+	
+	@media (min-width : 768px) and (max-width : 962px){
+		.warna{
+			background-color : gray;
+		}
+	}
+
+</style>
+
+</head>
+<body>
+
+	<div class="container-fluid warna"><center>Test grid</center>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6 orange">
+				kolom 1
+			</div>
+			<div class="col-sm-6 biru">
+				kolom 2
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
