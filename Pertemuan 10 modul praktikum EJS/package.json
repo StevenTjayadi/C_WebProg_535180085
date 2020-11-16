@@ -1,0 +1,33 @@
+{
+  "name": "ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "mssql": "^6.2.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenTjayadi/C_WebProg_535180085.git"
+  },
+  "author": "Steven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenTjayadi/C_WebProg_535180085/issues"
+  },
+  "homepage": "https://github.com/StevenTjayadi/C_WebProg_535180085#readme"
+}
